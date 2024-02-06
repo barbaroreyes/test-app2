@@ -10,8 +10,10 @@ const SiteNav = () => {
         <Navbar.Brand href="#home">Test1_App</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="navms-md-auto">
-                <Nav.Link href='/login'>Login</Nav.Link>
+            <Nav className="ms-md-auto">
+            <Nav.Link href='/login'>Login</Nav.Link>
+            <Nav.Link href='/'>Register</Nav.Link>
+
             </Nav>
         </Navbar.Collapse>
         </Container>
